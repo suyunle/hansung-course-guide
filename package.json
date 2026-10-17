@@ -1,0 +1,9 @@
+{
+  "name": "hansung-course-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "한성대학교 1학년 수강신청 가이드 (시간표 구성)",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}

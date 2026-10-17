@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>수강신청 가이드</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="planner.css">
+</head>
+<body>
+  <!-- 1. 시작: 학과 선택 -->
+  <div class="start" id="start">
+    <div class="start__card">
+    <h1 class="start__title">수강신청 가이드</h1>
+    <p class="start__year">2026학년도 1학기 · 1학년</p>
+    <select class="start__select" id="college-select">
+      <option value="">단과대학</option>
+    </select>
+    <select class="start__select" id="dept-select" disabled>
+      <option value="">학부·학과</option>
+    </select>
+    <div class="start__jy" id="jy">
+      <button class="jy is-on" data-jy="주간">주간</button>
+      <button class="jy" data-jy="야간">야간</button>
+    </div>
+    <button class="btn btn--sky start__btn" id="start-btn" disabled>시작하기!</button>
+    </div>
+  </div>
+
+  <!-- 2. 교양필수 분반 고르기 (한 과목씩) -->
+  <div class="setup is-hidden" id="setup">
+    <div class="setup__inner">
+      <div class="setup__dots" id="setup-dots"></div>
+      <p class="setup__step" id="setup-step"></p>
+      <h2 class="setup__title" id="setup-title"></h2>
+      <div class="setup__levels" id="setup-levels"></div>
+      <div class="setup__opts" id="setup-opts"></div>
+      <div class="setup__nav">
+        <button class="btn btn--outline" id="setup-prev">이전</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 시간표: 위쪽 바와 본문을 같은 폭으로 묶어 가운데 정렬 -->
+  <div class="app">
+  <header class="topbar">
+    <button class="topbar__dept" id="dept-btn"></button>
+    <div class="topbar__right">
+      <button class="topbar__guide" id="save-btn">이미지 저장</button>
+      <button class="topbar__guide" id="summary-btn" aria-expanded="false">과목 표 펼치기</button>
+      <button class="topbar__guide" id="guide-btn">이수 기준</button>
+      <div class="topbar__credits"><strong id="total-credits">0</strong> / <span id="max-credits"></span>학점</div>
+    </div>
+  </header>
+
+  <!-- 이수 기준 (선택필수교양) -->
+  <div class="sheet is-hidden" id="sheet">
+    <div class="sheet__panel">
+      <button class="sheet__close" id="sheet-close" aria-label="닫기">✕</button>
+      <div id="sheet-body"></div>
+    </div>
+  </div>
+
+  <main class="planner" id="planner" data-view="courses">
+    <section class="courses">
+      <div class="tabs" id="tabs">
+        <button class="tab is-on" data-cat="선택필수교양">선택필수교양</button>
+        <button class="tab" data-cat="전공">전공</button>
+        <button class="tab" data-cat="일반교양">일반교양</button>
+      </div>
+      <div class="courses__tools">
+        <input class="field__input" id="search" type="search" placeholder="과목 검색">
+        <select class="field__input courses__filter" id="filter"></select>
+        <p class="courses__tip" id="sel-tip">선택 필수 교양은 <b>5개 영역 중 4개 영역</b>을 들어야 졸업할 수 있어요.
+          영역이 겹치지 않게 고르는 걸 추천해요.</p>
+      </div>
+      <ul class="course-list" id="course-list"></ul>
+    </section>
+
+    <section class="timetable-wrap">
+      <div class="timetable" id="timetable"></div>
+    </section>
+
+    <section class="summary">
+      <table class="summary__table">
+        <thead>
+          <tr><th>과목명</th><th>과목코드</th><th>분반</th><th>시간</th><th>장소</th><th>교수</th><th>학점</th></tr>
+        </thead>
+        <tbody id="summary"></tbody>
+      </table>
+    </section>
+  </main>
+  </div>
+
+  <!-- 휴대폰 전용: 강의 / 시간표 화면 전환 -->
+  <nav class="mobile-tabs" id="mobile-tabs">
+    <button class="is-on" data-view="courses">강의</button>
+    <button data-view="timetable">시간표</button>
+  </nav>
+
+  <!-- 튜토리얼: 교양필수를 고른 뒤 나머지 학점 구성 추천 (뒤 화면은 흐리게) -->
+  <div class="tour is-hidden" id="tour">
+    <div class="tour__card" id="tour-card" role="dialog" aria-modal="true" aria-labelledby="tour-title"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="api.js"></script>
+  <script src="planner.js"></script>
+</body>
+</html>

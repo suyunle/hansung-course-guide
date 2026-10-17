@@ -1,0 +1,2715 @@
+{
+ "year": 2026,
+ "semester": 1,
+ "term": "20261",
+ "source": "한성대학교 2026-1 수강신청 안내 및 학업이수가이드 260206, 수강신청책자(강의정보) 260303",
+ "maxCredits": 18,
+ "guide": {
+  "교양필수": "일괄 등록",
+  "선택필수교양": [
+   3,
+   6
+  ],
+  "전공기초": [
+   3,
+   6
+  ],
+  "total": [
+   17,
+   18
+  ]
+ },
+ "departments": [
+  {
+   "id": "hum",
+   "name": "크리에이티브인문학부",
+   "college": "크리에이티브인문예술대학",
+   "for": [
+    "크리에이티브인문학부",
+    "크리에이티브인문예술대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "P012",
+    "P01B",
+    "P013",
+    "P019",
+    "P01A",
+    "P01C",
+    "P018"
+   ],
+   "tracks": [
+    {
+     "code": "P012",
+     "name": "영미언어정보트랙"
+    },
+    {
+     "code": "P01B",
+     "name": "영미문화콘텐츠트랙"
+    },
+    {
+     "code": "P013",
+     "name": "한국어교육트랙"
+    },
+    {
+     "code": "P019",
+     "name": "역사문화큐레이션트랙"
+    },
+    {
+     "code": "P01A",
+     "name": "역사콘텐츠트랙"
+    },
+    {
+     "code": "P01C",
+     "name": "지식정보문화트랙"
+    },
+    {
+     "code": "P018",
+     "name": "디지털인문정보학트랙"
+    }
+   ]
+  },
+  {
+   "id": "art",
+   "name": "예술학부",
+   "college": "크리에이티브인문예술대학",
+   "for": [
+    "예술학부",
+    "크리에이티브인문예술대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "P021",
+    "P022",
+    "P023",
+    "P024",
+    "P025"
+   ],
+   "tracks": [
+    {
+     "code": "P021",
+     "name": "동양화전공"
+    },
+    {
+     "code": "P022",
+     "name": "서양화전공"
+    },
+    {
+     "code": "P023",
+     "name": "한국무용전공"
+    },
+    {
+     "code": "P024",
+     "name": "현대무용전공"
+    },
+    {
+     "code": "P025",
+     "name": "발레전공"
+    }
+   ],
+   "dayOnly": true
+  },
+  {
+   "id": "soc",
+   "name": "사회과학부",
+   "college": "미래융합사회과학대학",
+   "for": [
+    "미래융합사회과학대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "R011",
+    "R012",
+    "R013",
+    "R01F",
+    "R01C",
+    "R016",
+    "R01D",
+    "R01E",
+    "R019",
+    "R01G",
+    "R01B"
+   ],
+   "tracks": [
+    {
+     "code": "R011",
+     "name": "국제무역트랙"
+    },
+    {
+     "code": "R012",
+     "name": "글로벌비즈니스트랙"
+    },
+    {
+     "code": "R013",
+     "name": "기업·경제분석트랙"
+    },
+    {
+     "code": "R01F",
+     "name": "경제금융투자트랙"
+    },
+    {
+     "code": "R01C",
+     "name": "공공행정트랙"
+    },
+    {
+     "code": "R016",
+     "name": "법&정책트랙"
+    },
+    {
+     "code": "R01D",
+     "name": "부동산트랙"
+    },
+    {
+     "code": "R01E",
+     "name": "스마트도시·교통계획트랙"
+    },
+    {
+     "code": "R019",
+     "name": "기업경영트랙"
+    },
+    {
+     "code": "R01G",
+     "name": "비즈니스애널리틱스트랙"
+    },
+    {
+     "code": "R01B",
+     "name": "회계·재무경영트랙"
+    }
+   ]
+  },
+  {
+   "id": "fashion",
+   "name": "글로벌패션산업학부",
+   "college": "디자인대학",
+   "for": [
+    "디자인대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "T011",
+    "T012",
+    "T013"
+   ],
+   "tracks": [
+    {
+     "code": "T011",
+     "name": "패션마케팅트랙"
+    },
+    {
+     "code": "T012",
+     "name": "패션디자인트랙"
+    },
+    {
+     "code": "T013",
+     "name": "패션크리에이티브디렉션트랙"
+    }
+   ]
+  },
+  {
+   "id": "ictd",
+   "name": "ICT디자인학부",
+   "college": "디자인대학",
+   "for": [
+    "디자인대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "T02B",
+    "T022",
+    "T02C",
+    "T028",
+    "T026",
+    "T029",
+    "T023",
+    "T02A"
+   ],
+   "tracks": [
+    {
+     "code": "T02B",
+     "name": "미디어디자인트랙"
+    },
+    {
+     "code": "T022",
+     "name": "영상·애니메이션디자인트랙"
+    },
+    {
+     "code": "T02C",
+     "name": "시각디자인트랙"
+    },
+    {
+     "code": "T028",
+     "name": "인테리어디자인트랙"
+    },
+    {
+     "code": "T026",
+     "name": "VMD·전시디자인트랙"
+    },
+    {
+     "code": "T029",
+     "name": "게임그래픽디자인트랙"
+    },
+    {
+     "code": "T023",
+     "name": "제품·서비스디자인트랙"
+    },
+    {
+     "code": "T02A",
+     "name": "UX/UI디자인트랙"
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "name": "뷰티디자인매니지먼트학과",
+   "college": "디자인대학",
+   "for": [
+    "디자인대학"
+   ],
+   "required": [
+    {
+     "name": "사고와 표현",
+     "codes": [
+      "GEN0925"
+     ]
+    },
+    {
+     "name": "영어커뮤니케이션 청취/회화",
+     "codes": [
+      "REQ0421",
+      "REQ0422",
+      "REQ0423"
+     ]
+    },
+    {
+     "name": "한성 이마기난스",
+     "codes": [
+      "GEN0924"
+     ]
+    }
+   ],
+   "majors": [
+    "T030"
+   ],
+   "tracks": [
+    {
+     "code": "T030",
+     "name": "뷰티디자인매니지먼트학과"
+    }
+   ]
+  },
+  {
+   "id": "cse",
+   "name": "컴퓨터공학부",
+   "college": "IT공과대학",
+   "for": [
+    "IT공과대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "V021",
+    "V022",
+    "V023",
+    "V024"
+   ],
+   "tracks": [
+    {
+     "code": "V021",
+     "name": "모바일소프트웨어트랙"
+    },
+    {
+     "code": "V022",
+     "name": "빅데이터트랙"
+    },
+    {
+     "code": "V023",
+     "name": "디지털콘텐츠·가상현실트랙"
+    },
+    {
+     "code": "V024",
+     "name": "웹공학트랙"
+    }
+   ]
+  },
+  {
+   "id": "mech",
+   "name": "기계전자공학부",
+   "college": "IT공과대학",
+   "for": [
+    "IT공과대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "V031",
+    "V035",
+    "V036",
+    "V037"
+   ],
+   "tracks": [
+    {
+     "code": "V031",
+     "name": "전자트랙"
+    },
+    {
+     "code": "V035",
+     "name": "시스템반도체트랙"
+    },
+    {
+     "code": "V036",
+     "name": "기계시스템디자인트랙"
+    },
+    {
+     "code": "V037",
+     "name": "AI로봇융합트랙"
+    }
+   ]
+  },
+  {
+   "id": "ise",
+   "name": "산업시스템공학부",
+   "college": "IT공과대학",
+   "for": [
+    "IT공과대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "V074",
+    "V076"
+   ],
+   "tracks": [
+    {
+     "code": "V074",
+     "name": "산업공학트랙"
+    },
+    {
+     "code": "V076",
+     "name": "응용산업데이터공학트랙"
+    }
+   ]
+  },
+  {
+   "id": "litcon",
+   "name": "문학문화콘텐츠학과",
+   "college": "창의융합대학",
+   "for": [
+    "창의융합대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "Y020"
+   ],
+   "tracks": [
+    {
+     "code": "Y020",
+     "name": "문학문화콘텐츠학과"
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "name": "AI응용학과",
+   "college": "창의융합대학",
+   "for": [
+    "창의융합대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "Y030"
+   ],
+   "tracks": [
+    {
+     "code": "Y030",
+     "name": "AI응용학과"
+    }
+   ]
+  },
+  {
+   "id": "sec",
+   "name": "융합보안학과",
+   "college": "창의융합대학",
+   "for": [
+    "창의융합대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "Y040"
+   ],
+   "tracks": [
+    {
+     "code": "Y040",
+     "name": "융합보안학과"
+    }
+   ],
+   "dayOnly": true
+  },
+  {
+   "id": "mob",
+   "name": "미래모빌리티학과",
+   "college": "창의융합대학",
+   "for": [
+    "창의융합대학"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ]
+    }
+   ],
+   "majors": [
+    "Y050"
+   ],
+   "tracks": [
+    {
+     "code": "Y050",
+     "name": "미래모빌리티학과"
+    }
+   ],
+   "dayOnly": true
+  },
+  {
+   "id": "imag",
+   "name": "상상력인재학부",
+   "college": "창의융합대학",
+   "for": [
+    "상상력인재학부"
+   ],
+   "required": [
+    {
+     "name": "영어커뮤니케이션 독해/작문",
+     "codes": [
+      "REQ0311",
+      "REQ0312",
+      "REQ0313"
+     ]
+    },
+    {
+     "name": "AI와 SW 기초",
+     "codes": [
+      "GEN0926"
+     ],
+     "for": [
+      "창의융합대학"
+     ]
+    },
+    {
+     "name": "AI+X 전공탐색",
+     "codes": [
+      "GEN1041"
+     ]
+    }
+   ],
+   "majors": [],
+   "tracks": []
+  }
+ ],
+ "gyopilFor": {
+  "GEN0925": {
+   "A": [
+    "크리에이티브인문학부"
+   ],
+   "B": [
+    "크리에이티브인문학부"
+   ],
+   "C": [
+    "크리에이티브인문학부"
+   ],
+   "D": [
+    "크리에이티브인문학부"
+   ],
+   "N": [
+    "크리에이티브인문학부"
+   ],
+   "O": [
+    "크리에이티브인문학부"
+   ],
+   "P": [
+    "크리에이티브인문학부"
+   ],
+   "1": [
+    "예술학부"
+   ],
+   "2": [
+    "예술학부"
+   ],
+   "E": [
+    "미래융합사회과학대학"
+   ],
+   "F": [
+    "미래융합사회과학대학"
+   ],
+   "G": [
+    "미래융합사회과학대학"
+   ],
+   "H": [
+    "미래융합사회과학대학"
+   ],
+   "Q": [
+    "미래융합사회과학대학"
+   ],
+   "R": [
+    "미래융합사회과학대학"
+   ],
+   "S": [
+    "미래융합사회과학대학"
+   ],
+   "T": [
+    "미래융합사회과학대학"
+   ],
+   "I": [
+    "디자인대학"
+   ],
+   "J": [
+    "디자인대학"
+   ],
+   "K": [
+    "디자인대학"
+   ],
+   "L": [
+    "디자인대학"
+   ],
+   "M": [
+    "디자인대학"
+   ],
+   "U": [
+    "디자인대학"
+   ],
+   "V": [
+    "디자인대학"
+   ],
+   "W": [
+    "디자인대학"
+   ]
+  },
+  "GEN0926": {
+   "A": [
+    "IT공과대학"
+   ],
+   "B": [
+    "IT공과대학"
+   ],
+   "C": [
+    "IT공과대학"
+   ],
+   "D": [
+    "IT공과대학"
+   ],
+   "E": [
+    "IT공과대학"
+   ],
+   "F": [
+    "IT공과대학"
+   ],
+   "G": [
+    "IT공과대학"
+   ],
+   "H": [
+    "IT공과대학"
+   ],
+   "I": [
+    "IT공과대학"
+   ],
+   "N": [
+    "IT공과대학"
+   ],
+   "O": [
+    "IT공과대학"
+   ],
+   "P": [
+    "IT공과대학"
+   ],
+   "Q": [
+    "IT공과대학"
+   ],
+   "R": [
+    "IT공과대학"
+   ],
+   "J": [
+    "창의융합대학"
+   ],
+   "K": [
+    "창의융합대학"
+   ],
+   "L": [
+    "창의융합대학"
+   ],
+   "M": [
+    "창의융합대학"
+   ],
+   "1": [
+    "창의융합대학"
+   ],
+   "2": [
+    "창의융합대학"
+   ],
+   "3": [
+    "창의융합대학"
+   ],
+   "4": [
+    "창의융합대학"
+   ],
+   "5": [
+    "창의융합대학"
+   ],
+   "6": [
+    "창의융합대학"
+   ],
+   "7": [
+    "창의융합대학"
+   ],
+   "8": [
+    "창의융합대학"
+   ],
+   "S": [
+    "창의융합대학"
+   ],
+   "T": [
+    "창의융합대학"
+   ],
+   "U": [
+    "창의융합대학"
+   ]
+  },
+  "GEN0924": {
+   "A": [
+    "미래융합사회과학대학"
+   ],
+   "B": [
+    "미래융합사회과학대학"
+   ],
+   "C": [
+    "미래융합사회과학대학"
+   ],
+   "D": [
+    "미래융합사회과학대학"
+   ],
+   "R": [
+    "미래융합사회과학대학"
+   ],
+   "Y": [
+    "미래융합사회과학대학"
+   ],
+   "V": [
+    "미래융합사회과학대학"
+   ],
+   "W": [
+    "미래융합사회과학대학"
+   ],
+   "E": [
+    "크리에이티브인문학부"
+   ],
+   "F": [
+    "크리에이티브인문학부"
+   ],
+   "G": [
+    "크리에이티브인문학부"
+   ],
+   "H": [
+    "크리에이티브인문학부"
+   ],
+   "S": [
+    "크리에이티브인문학부"
+   ],
+   "T": [
+    "크리에이티브인문학부"
+   ],
+   "U": [
+    "크리에이티브인문학부"
+   ],
+   "1": [
+    "예술학부"
+   ],
+   "2": [
+    "예술학부"
+   ],
+   "J": [
+    "디자인대학"
+   ],
+   "K": [
+    "디자인대학"
+   ],
+   "L": [
+    "디자인대학"
+   ],
+   "3": [
+    "디자인대학"
+   ],
+   "4": [
+    "디자인대학"
+   ],
+   "N": [
+    "디자인대학"
+   ],
+   "P": [
+    "디자인대학"
+   ],
+   "Q": [
+    "디자인대학"
+   ]
+  },
+  "GEN1041": {
+   "A": [
+    "상상력인재학부"
+   ],
+   "B": [
+    "상상력인재학부"
+   ],
+   "C": [
+    "상상력인재학부"
+   ],
+   "D": [
+    "상상력인재학부"
+   ],
+   "E": [
+    "상상력인재학부"
+   ]
+  },
+  "REQ0311": {
+   "A": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "B": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "C": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "D": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "N": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "O": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "E": [
+    "상상력인재학부"
+   ],
+   "F": [
+    "상상력인재학부"
+   ]
+  },
+  "REQ0312": {
+   "A": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "B": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "C": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "D": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "E": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "F": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "N": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "O": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "P": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "G": [
+    "상상력인재학부"
+   ],
+   "H": [
+    "상상력인재학부"
+   ]
+  },
+  "REQ0313": {
+   "A": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "B": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "C": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "D": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "E": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "N": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "O": [
+    "IT공과대학",
+    "창의융합대학"
+   ],
+   "F": [
+    "상상력인재학부"
+   ],
+   "G": [
+    "상상력인재학부"
+   ]
+  },
+  "REQ0421": {
+   "A": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "B": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "C": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "D": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "N": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "O": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "P": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ]
+  },
+  "REQ0422": {
+   "A": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "B": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "C": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "D": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "E": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "F": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "N": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "O": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "P": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "Q": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ]
+  },
+  "REQ0423": {
+   "A": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "B": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "C": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "D": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "E": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "N": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ],
+   "O": [
+    "크리에이티브인문예술대학",
+    "미래융합사회과학대학",
+    "디자인대학"
+   ]
+  }
+ },
+ "cross": {
+  "GEN0925|A": false,
+  "GEN0925|B": false,
+  "GEN0925|C": false,
+  "GEN0925|D": false,
+  "GEN0925|N": false,
+  "GEN0925|O": false,
+  "GEN0925|P": false,
+  "GEN0925|1": false,
+  "GEN0925|2": false,
+  "GEN0925|E": false,
+  "GEN0925|F": false,
+  "GEN0925|G": false,
+  "GEN0925|H": false,
+  "GEN0925|Q": false,
+  "GEN0925|R": false,
+  "GEN0925|S": false,
+  "GEN0925|T": false,
+  "GEN0925|I": false,
+  "GEN0925|J": false,
+  "GEN0925|K": false,
+  "GEN0925|L": false,
+  "GEN0925|M": false,
+  "GEN0925|U": false,
+  "GEN0925|V": false,
+  "GEN0925|W": false,
+  "GEN0926|A": false,
+  "GEN0926|B": false,
+  "GEN0926|C": false,
+  "GEN0926|D": false,
+  "GEN0926|E": false,
+  "GEN0926|F": false,
+  "GEN0926|G": false,
+  "GEN0926|H": false,
+  "GEN0926|I": false,
+  "GEN0926|N": false,
+  "GEN0926|O": false,
+  "GEN0926|P": false,
+  "GEN0926|Q": false,
+  "GEN0926|R": false,
+  "GEN0926|J": false,
+  "GEN0926|K": false,
+  "GEN0926|L": false,
+  "GEN0926|M": false,
+  "GEN0926|1": false,
+  "GEN0926|2": false,
+  "GEN0926|3": false,
+  "GEN0926|4": false,
+  "GEN0926|5": false,
+  "GEN0926|6": false,
+  "GEN0926|7": false,
+  "GEN0926|8": false,
+  "GEN0926|S": false,
+  "GEN0926|T": false,
+  "GEN0926|U": false,
+  "GEN0924|A": false,
+  "GEN0924|B": false,
+  "GEN0924|C": false,
+  "GEN0924|D": false,
+  "GEN0924|R": false,
+  "GEN0924|Y": false,
+  "GEN0924|V": false,
+  "GEN0924|W": false,
+  "GEN0924|E": false,
+  "GEN0924|F": false,
+  "GEN0924|G": false,
+  "GEN0924|H": false,
+  "GEN0924|S": false,
+  "GEN0924|T": false,
+  "GEN0924|U": false,
+  "GEN0924|1": false,
+  "GEN0924|2": false,
+  "GEN0924|J": false,
+  "GEN0924|K": false,
+  "GEN0924|L": false,
+  "GEN0924|3": false,
+  "GEN0924|4": false,
+  "GEN0924|N": false,
+  "GEN0924|P": false,
+  "GEN0924|Q": false,
+  "GEN1041|A": true,
+  "GEN1041|B": true,
+  "GEN1041|C": true,
+  "GEN1041|D": true,
+  "GEN1041|E": true,
+  "REQ0311|A": false,
+  "REQ0311|B": false,
+  "REQ0311|C": false,
+  "REQ0311|D": false,
+  "REQ0312|A": false,
+  "REQ0312|B": false,
+  "REQ0312|C": false,
+  "REQ0312|D": false,
+  "REQ0312|E": false,
+  "REQ0312|F": false,
+  "REQ0313|A": false,
+  "REQ0313|B": false,
+  "REQ0313|C": false,
+  "REQ0313|D": false,
+  "REQ0313|E": false,
+  "REQ0311|N": false,
+  "REQ0311|O": false,
+  "REQ0312|N": false,
+  "REQ0312|O": false,
+  "REQ0312|P": false,
+  "REQ0313|N": false,
+  "REQ0313|O": false,
+  "REQ0311|E": false,
+  "REQ0311|F": false,
+  "REQ0312|G": false,
+  "REQ0312|H": false,
+  "REQ0313|F": false,
+  "REQ0313|G": false,
+  "REQ0421|A": false,
+  "REQ0421|B": false,
+  "REQ0421|C": false,
+  "REQ0421|D": false,
+  "REQ0422|A": false,
+  "REQ0422|B": false,
+  "REQ0422|C": false,
+  "REQ0422|D": false,
+  "REQ0422|E": false,
+  "REQ0422|F": false,
+  "REQ0423|A": false,
+  "REQ0423|B": false,
+  "REQ0423|C": false,
+  "REQ0423|D": false,
+  "REQ0423|E": false,
+  "REQ0421|N": false,
+  "REQ0421|O": false,
+  "REQ0421|P": false,
+  "REQ0422|N": false,
+  "REQ0422|O": false,
+  "REQ0422|P": false,
+  "REQ0422|Q": false,
+  "REQ0423|N": false,
+  "REQ0423|O": false,
+  "REQ0311|7": true,
+  "REQ0312|7": true,
+  "REQ0313|7": true,
+  "REQ0421|7": true,
+  "REQ0422|7": true,
+  "REQ0423|7": true,
+  "GEN0923|N": false,
+  "GEN0996|A": false,
+  "GEN0996|B": false,
+  "GEN0996|C": false,
+  "GEN0996|D": false,
+  "GEN0996|E": false,
+  "GEN0996|G": false,
+  "GEN0995|A": false,
+  "GEN0995|B": false,
+  "GEN0995|C": false,
+  "GEN0995|D": false,
+  "GEN0995|E": false,
+  "GEN0995|G": false,
+  "GEN0994|A": false,
+  "GEN0994|B": false,
+  "GEN0994|C": false,
+  "GEN0996|F": false,
+  "GEN0995|F": false,
+  "GEN1017|A": false,
+  "GEN0958|F": false,
+  "GEN0386|A": true,
+  "GEN0386|N": true,
+  "GEN0646|B": true,
+  "GEN0646|N": true,
+  "GEN0646|A": true,
+  "GEN0647|P": true,
+  "GEN0647|B": true,
+  "GEN0647|A": true,
+  "GEN0647|8": true,
+  "GEN0647|7": true,
+  "GEN0648|A": true,
+  "GEN0648|7": true,
+  "GEN0648|B": true,
+  "GEN0648|8": true,
+  "GEN0649|A": true,
+  "GEN0649|B": true,
+  "GEN0649|7": true,
+  "GEN0649|8": true,
+  "GEN0650|A": true,
+  "GEN0650|P": true,
+  "GEN0650|B": true,
+  "GEN0650|N": true,
+  "GEN0652|A": true,
+  "GEN0652|N": true,
+  "GEN0653|A": true,
+  "GEN0653|N": true,
+  "GEN0676|7": true,
+  "GEN0824|A": true,
+  "GEN0978|A": true,
+  "GEN0978|7": true,
+  "GEN0922|A": true,
+  "GEN0922|7": true,
+  "GEN0923|A": false,
+  "GEN0923|P": false,
+  "GEN0857|7": true,
+  "GEN0651|A": true,
+  "GEN0651|N": true,
+  "GEN0997|A": true,
+  "GEN0997|7": true,
+  "GEN0997|8": true,
+  "GEN0677|A": true,
+  "GEN0677|7": true,
+  "GEN0679|A": false,
+  "GEN0679|N": false,
+  "GEN0680|A": true,
+  "GEN0680|N": true,
+  "GEN0683|7": true,
+  "GEN0685|A": false,
+  "GEN0685|N": false,
+  "GEN0686|A": false,
+  "GEN0686|N": false,
+  "GEN0690|A": true,
+  "GEN0690|N": true,
+  "GEN0691|A": true,
+  "GEN0691|N": true,
+  "GEN0733|A": false,
+  "GEN0733|N": false,
+  "GEN0862|A": true,
+  "GEN0862|N": true,
+  "GEN0927|A": true,
+  "GEN0927|7": true,
+  "GEN0928|A": true,
+  "GEN0928|N": true,
+  "GEN0931|7": true,
+  "GEN0935|7": true,
+  "GEN0942|A": true,
+  "GEN0942|7": true,
+  "GEN0959|7": true,
+  "GEN0404|A": true,
+  "GEN0404|N": true,
+  "GEN0693|A": true,
+  "GEN0695|A": true,
+  "GEN0695|7": true,
+  "GEN0981|A": true,
+  "GEN0981|N": true,
+  "GEN0698|A": false,
+  "GEN0698|N": false,
+  "GEN0700|A": true,
+  "GEN0700|7": true,
+  "GEN0701|7": true,
+  "GEN0705|A": true,
+  "GEN0705|N": true,
+  "GEN0706|A": true,
+  "GEN0706|7": true,
+  "GEN0706|N": true,
+  "GEN0708|7": true,
+  "GEN0825|7": true,
+  "GEN0826|A": true,
+  "GEN0826|N": true,
+  "GEN0849|7": true,
+  "GEN0704|7": true,
+  "GEN0863|A": false,
+  "GEN0863|N": true,
+  "GEN0929|7": true,
+  "GEN0932|A": true,
+  "GEN0932|N": true,
+  "GEN0958|A": true,
+  "GEN0958|N": true,
+  "GEN0982|A": true,
+  "GEN0982|7": true,
+  "GEN0714|A": false,
+  "GEN0714|7": true,
+  "GEN0716|7": true,
+  "GEN0723|7": true,
+  "GEN0886|7": false,
+  "GEN1018|A": true,
+  "GEN1018|7": true,
+  "GEN0903|A": true,
+  "GEN0903|N": true,
+  "GEN0903|7": true,
+  "GEN0940|A": false,
+  "GEN0940|7": true,
+  "GEN0941|A": false,
+  "GEN0941|B": false,
+  "GEN0941|C": false,
+  "GEN0941|D": false,
+  "GEN0941|7": true,
+  "GEN0941|N": false,
+  "GEN0961|A": false,
+  "GEN0961|N": false,
+  "GEN0980|A": false,
+  "GEN0980|7": true,
+  "GEN0726|7": true,
+  "GEN0727|7": true,
+  "GEN0847|A": false,
+  "GEN0847|N": false,
+  "GEN0848|A": false,
+  "GEN0848|N": false,
+  "GEN0861|A": true,
+  "GEN0991|A": true,
+  "GEN0991|7": true,
+  "GEN0991|B": true,
+  "GEN0991|8": true,
+  "GEN0936|A": true,
+  "GEN0936|7": true,
+  "GEN0938|A": true,
+  "GEN0938|N": true,
+  "GEN0960|7": true,
+  "GEN0970|7": true,
+  "GEN0986|A": true,
+  "GEN0986|7": true,
+  "GEN0985|7": true,
+  "GEN0984|A": true,
+  "GEN0984|N": true,
+  "GEN1019|7": true,
+  "GEN0625|A": true,
+  "GEN0625|N": true,
+  "GEN0627|A": true,
+  "GEN0627|N": true,
+  "GEN0628|A": false,
+  "GEN0628|N": true,
+  "GEN0721|A": true,
+  "GEN0789|7": true,
+  "GEN0789|8": true,
+  "GEN0789|9": true,
+  "GEN0789|A": true,
+  "GEN0789|B": true,
+  "GEN1016|A": true,
+  "GEN1016|7": true,
+  "GEN0906|7": true,
+  "GEN0907|7": true,
+  "GEN0963|A": true,
+  "GEN0870|7": true,
+  "GEN1015|A": true,
+  "GEN1015|N": true,
+  "GEN0998|A": true,
+  "GEN0998|N": true,
+  "GEN0830|A": true,
+  "GEN0799|A": true,
+  "GEN0976|7": true,
+  "GEN0626|7": true,
+  "GEN0717|7": true,
+  "GEN0629|7": true,
+  "GEN0752|7": true,
+  "GEN1042|7": true,
+  "GEN1043|7": true,
+  "GEN0787|7": true,
+  "GEN0787|8": true,
+  "GEN0787|9": true,
+  "GEN0787|0": true,
+  "GEN0787|A": true,
+  "GEN0787|B": true,
+  "GEN0792|7": true,
+  "GEN0792|8": true,
+  "GEN0792|9": true,
+  "GEN0792|0": true,
+  "GEN0792|A": true,
+  "GEN0793|7": true,
+  "GEN0702|7": true,
+  "GEN0871|7": true,
+  "GEN0957|7": true,
+  "GEN0956|7": true,
+  "GEN0992|7": true,
+  "GEN0992|8": true,
+  "GEN0992|9": true,
+  "CTH0025|A": false,
+  "CTH0025|N": true,
+  "P010184|A": false,
+  "P010184|N": true,
+  "P010185|A": false,
+  "P010185|N": true,
+  "P010098|7": true,
+  "P01B001|A": false,
+  "P01B001|N": true,
+  "P012014|A": false,
+  "P012014|N": true,
+  "P010130|A": false,
+  "P010130|N": true,
+  "P01B004|7": true,
+  "P010138|A": false,
+  "P010138|N": true,
+  "P010141|7": true,
+  "P01B006|7": true,
+  "CTH0026|A": false,
+  "CTH0026|N": true,
+  "P010127|A": false,
+  "P010127|N": true,
+  "P010152|7": true,
+  "P012021|A": false,
+  "P012021|N": true,
+  "P012016|A": false,
+  "P012016|N": true,
+  "CTH0027|A": true,
+  "P010021|7": true,
+  "P010133|7": true,
+  "P010176|7": true,
+  "P013013|7": true,
+  "P010134|7": true,
+  "P010177|7": true,
+  "P013014|7": true,
+  "P010115|7": true,
+  "Y020001|A": false,
+  "Y020001|N": true,
+  "Y020001|7": true,
+  "Y020001|8": true,
+  "Y020040|A": false,
+  "Y020040|N": true,
+  "Y020005|A": false,
+  "Y020005|N": true,
+  "Y020005|7": true,
+  "Y020005|8": true,
+  "Y020005|9": true,
+  "Y020007|A": false,
+  "Y020007|N": true,
+  "Y020009|A": false,
+  "Y020009|N": true,
+  "Y020010|A": false,
+  "Y020010|N": true,
+  "Y020011|A": false,
+  "Y020011|N": true,
+  "Y020039|A": false,
+  "Y020039|N": true,
+  "Y020018|A": false,
+  "Y020018|N": true,
+  "Y020022|A": false,
+  "Y020022|N": true,
+  "Y020006|A": false,
+  "Y020006|N": true,
+  "Y020037|A": false,
+  "Y020037|N": true,
+  "Y020038|A": false,
+  "Y020038|N": true,
+  "Y020035|A": false,
+  "Y020035|N": true,
+  "Y020026|A": false,
+  "Y020026|N": true,
+  "Y020034|A": false,
+  "Y020034|N": true,
+  "M020004|7": true,
+  "CTH0022|A": false,
+  "CTH0022|N": false,
+  "P019001|A": false,
+  "P019001|N": false,
+  "P010157|A": false,
+  "P010157|N": false,
+  "P010160|A": false,
+  "P010160|N": false,
+  "P019003|A": false,
+  "P019003|N": false,
+  "P010173|A": false,
+  "P010173|N": false,
+  "P010175|A": false,
+  "P010175|N": false,
+  "P019005|A": false,
+  "P019005|N": false,
+  "P019007|A": false,
+  "P019007|N": false,
+  "CTH0023|A": false,
+  "CTH0023|N": false,
+  "P01A001|A": false,
+  "P01A001|N": false,
+  "P01A008|A": false,
+  "P01A008|N": false,
+  "P01A007|A": false,
+  "P01A007|N": false,
+  "CTH0021|A": false,
+  "CTH0021|N": false,
+  "P017018|A": false,
+  "P017018|N": false,
+  "P010166|A": false,
+  "P010166|N": false,
+  "P010077|A": false,
+  "P010077|N": false,
+  "P010164|A": false,
+  "P010164|N": false,
+  "P017019|A": false,
+  "P017019|N": false,
+  "P010119|7": true,
+  "P010155|A": false,
+  "P010155|N": false,
+  "P017011|7": true,
+  "P010075|7": true,
+  "P010053|A": false,
+  "P010053|N": false,
+  "P010156|7": true,
+  "CTH0016|A": false,
+  "CTH0016|N": false,
+  "P018020|A": false,
+  "P018020|N": false,
+  "P018013|A": false,
+  "P018013|N": false,
+  "P018010|A": false,
+  "P018010|N": false,
+  "P010077|7": true,
+  "CTH0013|A": true,
+  "P021004|A": true,
+  "P020094|A": true,
+  "P020112|A": true,
+  "P021013|A": true,
+  "P020070|A": true,
+  "P020086|A": true,
+  "P020097|A": true,
+  "T020013|A": true,
+  "T020013|B": true,
+  "T020013|C": true,
+  "P020101|A": true,
+  "P020023|A": true,
+  "P020023|B": true,
+  "P022006|A": true,
+  "P022005|A": true,
+  "P020020|A": true,
+  "P020021|A": true,
+  "P020010|A": true,
+  "P020085|A": true,
+  "CTH0014|A": true,
+  "CTH0010|A": false,
+  "P023002|A": false,
+  "P023004|A": false,
+  "P020025|A": false,
+  "P020027|A": false,
+  "P020076|A": false,
+  "P020111|A": false,
+  "P020110|A": false,
+  "P023006|A": false,
+  "P020033|A": false,
+  "P020113|A": false,
+  "P020035|A": false,
+  "P020080|A": false,
+  "P020041|A": false,
+  "P020114|A": false,
+  "P020087|A": false,
+  "P020043|A": false,
+  "P020092|A": false,
+  "P024002|A": false,
+  "P024004|A": false,
+  "P024006|A": false,
+  "P025002|A": false,
+  "P025004|A": false,
+  "P025006|A": false,
+  "M020029|7": false,
+  "CTS0013|A": false,
+  "CTS0013|7": true,
+  "CTS0013|N": false,
+  "R013012|A": false,
+  "R013012|N": false,
+  "R013013|A": false,
+  "R013013|N": false,
+  "R010110|7": true,
+  "R01F001|A": false,
+  "R01F001|N": false,
+  "R010071|A": false,
+  "R010071|N": false,
+  "R010108|A": false,
+  "R010108|N": false,
+  "R010009|A": false,
+  "R010009|N": false,
+  "R013015|A": false,
+  "R013015|N": false,
+  "R010092|A": false,
+  "R010092|N": false,
+  "CTS0016|A": false,
+  "CTS0016|7": true,
+  "CTS0016|N": false,
+  "R01F003|A": false,
+  "R01F003|N": false,
+  "R01F005|7": true,
+  "R010128|7": true,
+  "CTS0007|A": true,
+  "CTS0007|B": true,
+  "CTS0007|N": true,
+  "CTS0007|O": true,
+  "R017011|7": true,
+  "R017011|A": true,
+  "R017011|N": true,
+  "R017003|7": true,
+  "R017003|A": true,
+  "R010032|7": true,
+  "R017005|7": true,
+  "R017005|A": true,
+  "R017005|N": true,
+  "R010036|A": true,
+  "R010036|N": true,
+  "R010072|A": true,
+  "R010072|N": true,
+  "R010093|7": true,
+  "R010013|7": true,
+  "R010013|A": true,
+  "R010013|B": true,
+  "R010013|N": true,
+  "R010013|P": true,
+  "R018008|7": true,
+  "R010079|A": true,
+  "R010079|N": true,
+  "R010091|7": true,
+  "R010091|A": true,
+  "P026015|7": true,
+  "P026015|A": true,
+  "CTS0015|A": true,
+  "CTS0015|N": true,
+  "R010080|A": true,
+  "R018009|7": true,
+  "R018014|7": true,
+  "R010083|7": true,
+  "CTS0009|7": true,
+  "CTS0009|A": true,
+  "CTS0009|N": true,
+  "R010056|7": true,
+  "R010056|8": true,
+  "R010056|9": true,
+  "R010056|A": true,
+  "R010056|B": true,
+  "R010056|N": true,
+  "R019005|7": true,
+  "R019005|8": true,
+  "R019005|9": true,
+  "R019005|A": true,
+  "R019005|B": true,
+  "R019005|N": true,
+  "R019004|7": true,
+  "R019004|B": true,
+  "R019004|N": true,
+  "R019011|7": true,
+  "R019011|A": true,
+  "R019011|B": true,
+  "R019006|7": true,
+  "R019006|A": true,
+  "R019012|7": true,
+  "R019012|A": true,
+  "R019012|B": true,
+  "R019012|N": true,
+  "R010061|7": true,
+  "R010061|A": true,
+  "R010061|N": true,
+  "R010018|7": true,
+  "R010018|A": true,
+  "R010018|N": true,
+  "R010114|7": true,
+  "R010114|8": true,
+  "R010114|A": true,
+  "R010114|N": true,
+  "R010065|7": true,
+  "R010065|A": true,
+  "R010065|N": true,
+  "R010015|7": true,
+  "R010015|A": true,
+  "R010015|B": true,
+  "R010015|N": true,
+  "R012010|7": true,
+  "R012010|A": false,
+  "R010109|7": true,
+  "R010109|A": false,
+  "R010109|N": false,
+  "R010073|7": true,
+  "R010073|A": true,
+  "CTS0018|7": true,
+  "CTS0018|8": true,
+  "CTS0018|A": true,
+  "R01G013|A": true,
+  "R01G013|N": true,
+  "R01G011|A": true,
+  "R01G011|N": true,
+  "R01G014|7": true,
+  "R01G014|A": true,
+  "R01B009|7": true,
+  "R01B009|A": true,
+  "R01B009|N": true,
+  "R019006|N": true,
+  "CTS0011|7": true,
+  "CTS0011|8": true,
+  "CTS0011|A": true,
+  "CTS0011|N": true,
+  "R01B001|7": true,
+  "R01B001|A": true,
+  "R01B001|N": true,
+  "R01B002|7": true,
+  "R01B002|A": true,
+  "CTA0001|A": true,
+  "CTA0001|N": true,
+  "T011003|7": true,
+  "T011003|A": false,
+  "T011003|N": false,
+  "T010004|A": true,
+  "T010004|N": true,
+  "T011012|A": true,
+  "T011012|N": true,
+  "T010014|A": true,
+  "T010014|N": true,
+  "T010033|7": true,
+  "T010032|A": true,
+  "T010032|N": true,
+  "CTA0002|A": true,
+  "CTA0002|N": true,
+  "T012003|7": true,
+  "T012003|8": true,
+  "T012003|A": true,
+  "T012003|N": true,
+  "T010001|7": true,
+  "T010001|8": true,
+  "T010001|A": false,
+  "T010001|N": false,
+  "T012010|7": true,
+  "T012010|A": true,
+  "T012010|N": true,
+  "T010015|A": false,
+  "T010015|B": false,
+  "T010015|N": false,
+  "T010015|P": false,
+  "T010002|A": true,
+  "T010002|N": true,
+  "T012011|7": true,
+  "T012011|A": true,
+  "T012011|N": true,
+  "T010003|7": true,
+  "T010003|8": true,
+  "T010003|A": true,
+  "T010003|N": true,
+  "T010026|A": true,
+  "T010026|N": true,
+  "CTA0003|A": true,
+  "CTA0003|N": true,
+  "T013011|7": true,
+  "T013011|A": true,
+  "T013011|N": true,
+  "T010005|7": true,
+  "T010005|A": false,
+  "T010005|N": false,
+  "T010017|A": true,
+  "T010017|N": true,
+  "T010030|7": true,
+  "T010030|A": true,
+  "T010030|N": true,
+  "T013010|7": true,
+  "T013012|A": true,
+  "T013012|N": true,
+  "CTA0016|A": true,
+  "CTA0016|B": true,
+  "CTA0016|C": true,
+  "T020073|A": true,
+  "T020073|B": true,
+  "T02B010|A": true,
+  "T02B010|B": true,
+  "T02B010|C": true,
+  "T02B010|D": true,
+  "T02B016|A": true,
+  "T02B016|B": true,
+  "T02B016|C": true,
+  "T020074|A": true,
+  "T020074|B": true,
+  "T020074|C": true,
+  "T020074|D": true,
+  "T02B017|A": true,
+  "T02B017|B": true,
+  "T02B017|C": true,
+  "CTA0017|A": true,
+  "CTA0017|B": true,
+  "CTA0017|C": true,
+  "T02C011|A": true,
+  "T02C011|B": true,
+  "T02C011|C": true,
+  "T020061|A": true,
+  "T020061|B": true,
+  "T020061|C": true,
+  "T020077|A": true,
+  "T020077|B": true,
+  "T020077|C": true,
+  "T020077|D": true,
+  "T020077|E": true,
+  "T02C015|A": true,
+  "T02C015|B": true,
+  "T02C015|C": true,
+  "T02C016|A": true,
+  "T02C016|B": true,
+  "CTA0005|A": true,
+  "CTA0005|B": true,
+  "T022009|A": true,
+  "T022009|B": true,
+  "T022009|C": true,
+  "T022011|A": true,
+  "T022011|B": true,
+  "T022011|C": true,
+  "T022007|A": true,
+  "T022007|B": true,
+  "T022007|C": true,
+  "T020006|A": true,
+  "T020006|B": true,
+  "T020006|C": true,
+  "M020005|7": true,
+  "T020043|N": true,
+  "T020023|A": true,
+  "T020023|B": true,
+  "T020023|C": true,
+  "T020038|N": true,
+  "M037001|7": true,
+  "M03A002|7": true,
+  "CTA0012|N": true,
+  "T029021|N": true,
+  "T029021|P": true,
+  "T027016|N": true,
+  "T029020|N": true,
+  "T020079|N": true,
+  "T027015|7": true,
+  "T027015|N": true,
+  "T020042|A": true,
+  "T020042|B": true,
+  "T023001|A": true,
+  "CTA0014|A": true,
+  "T02A001|A": true,
+  "T02A002|A": true,
+  "T028015|A": true,
+  "T028015|B": true,
+  "T02A005|A": true,
+  "T02A006|A": true,
+  "T02A009|A": true,
+  "T026012|A": true,
+  "T026012|B": true,
+  "CTA0008|A": true,
+  "CTA0008|B": true,
+  "CTA0008|C": true,
+  "CTA0008|D": true,
+  "T025008|A": true,
+  "T025008|B": true,
+  "T028001|A": true,
+  "T028001|B": true,
+  "TO28014|A": true,
+  "TO28014|B": true,
+  "T026003|A": true,
+  "T026003|B": true,
+  "T026003|D": true,
+  "T026010|A": true,
+  "T026010|B": true,
+  "CTA0009|A": true,
+  "CTA0009|B": true,
+  "CTA0009|C": true,
+  "T026003|C": true,
+  "T020081|A": true,
+  "T026008|A": true,
+  "T026008|B": true,
+  "CTA0013|7": true,
+  "CTA0013|A": true,
+  "CTA0013|N": true,
+  "T030104|A": true,
+  "T030104|N": true,
+  "T030107|A": true,
+  "T030107|N": true,
+  "T030137|7": true,
+  "T030139|A": true,
+  "T030139|N": true,
+  "T030148|7": true,
+  "T030135|A": true,
+  "T030135|N": true,
+  "T030141|A": true,
+  "T030141|N": true,
+  "T030124|9": true,
+  "T030124|A": true,
+  "T030124|N": true,
+  "T030126|7": true,
+  "T030126|9": true,
+  "T030134|7": true,
+  "T030134|A": true,
+  "T030134|N": true,
+  "T030140|A": true,
+  "T030140|N": true,
+  "T030127|A": true,
+  "T030127|N": true,
+  "T030136|7": true,
+  "T030128|7": true,
+  "T030128|A": true,
+  "T030128|N": true,
+  "T030133|9": true,
+  "T030133|A": true,
+  "T030133|N": true,
+  "T030147|A": true,
+  "W520034|L": true,
+  "W520026|L": true,
+  "W520039|L": true,
+  "W520024|L": true,
+  "W520037|L": true,
+  "W520021|L": true,
+  "W520051|L": true,
+  "W520051|M": true,
+  "W520048|L": true,
+  "W520048|M": true,
+  "W520031|L": true,
+  "W520008|L": true,
+  "W520008|M": true,
+  "W520047|L": true,
+  "W520047|M": true,
+  "W030030|N": true,
+  "CTE0001|7": true,
+  "CTE0001|A": true,
+  "CTE0001|B": true,
+  "CTE0001|C": false,
+  "CTE0001|D": false,
+  "CTE0001|N": true,
+  "CTE0002|7": true,
+  "CTE0002|8": true,
+  "CTE0002|9": true,
+  "CTE0002|A": true,
+  "CTE0002|B": true,
+  "CTE0002|N": true,
+  "V020001|7": true,
+  "V020001|8": true,
+  "V020001|A": true,
+  "V020001|B": true,
+  "V020001|C": true,
+  "V020001|D": true,
+  "V020001|N": true,
+  "V020002|7": true,
+  "V020002|A": true,
+  "V020002|B": true,
+  "V020002|C": true,
+  "V020002|D": true,
+  "V020002|E": true,
+  "V020002|N": true,
+  "V020002|P": true,
+  "V020003|7": true,
+  "V020003|8": true,
+  "V020003|A": true,
+  "V020003|B": true,
+  "V020003|C": true,
+  "V020003|N": true,
+  "V020004|7": true,
+  "V020004|A": true,
+  "V020004|B": true,
+  "V020004|C": true,
+  "V020004|N": true,
+  "V020005|7": true,
+  "V020005|8": true,
+  "V020005|A": true,
+  "V020005|B": true,
+  "V020005|N": true,
+  "V020006|7": true,
+  "V020006|A": true,
+  "V020006|B": true,
+  "V021004|7": true,
+  "V021004|8": true,
+  "V021004|9": true,
+  "V021004|A": true,
+  "V021004|B": true,
+  "V021004|C": true,
+  "V021004|N": true,
+  "V020014|7": true,
+  "V020014|8": true,
+  "V020014|9": true,
+  "V020014|A": true,
+  "V020014|B": true,
+  "V020014|C": true,
+  "V020014|N": true,
+  "V022003|7": true,
+  "V022003|8": true,
+  "V022003|9": true,
+  "V022003|A": true,
+  "V022003|B": true,
+  "V022003|C": true,
+  "V022003|D": true,
+  "V022003|N": true,
+  "V020013|7": true,
+  "V020013|A": true,
+  "V020013|B": true,
+  "V020013|C": true,
+  "V020013|D": true,
+  "V020013|N": true,
+  "V020015|7": true,
+  "V020015|8": true,
+  "V020015|A": true,
+  "V020015|B": true,
+  "V020015|N": true,
+  "V021005|7": true,
+  "V021005|A": true,
+  "V021005|B": true,
+  "V021005|C": true,
+  "V021005|D": true,
+  "V021005|N": true,
+  "V021008|0": true,
+  "V021008|7": true,
+  "V021008|8": true,
+  "V021008|9": true,
+  "V021008|A": true,
+  "V021008|B": true,
+  "V021008|N": true,
+  "V020020|A": true,
+  "V020020|B": true,
+  "V020020|N": true,
+  "V020022|7": true,
+  "V020028|A": true,
+  "V020028|N": true,
+  "V020024|N": true,
+  "V020025|A": true,
+  "V020026|A": true,
+  "V024004|7": true,
+  "V024004|8": true,
+  "V024004|A": true,
+  "V024004|B": true,
+  "V024004|N": true,
+  "V024004|O": true,
+  "V022005|7": true,
+  "V022005|A": true,
+  "V022005|N": true,
+  "V022008|7": true,
+  "V022008|A": true,
+  "V022008|B": true,
+  "V022008|N": true,
+  "V023004|7": true,
+  "V023004|A": true,
+  "V023004|B": true,
+  "V023009|7": true,
+  "V023009|8": true,
+  "V023009|A": true,
+  "V023006|7": true,
+  "V023006|A": true,
+  "V023008|7": true,
+  "V023008|A": true,
+  "V023008|N": true,
+  "V024006|7": true,
+  "V024006|A": true,
+  "V024006|B": true,
+  "V024006|C": true,
+  "V024006|N": true,
+  "V024008|7": true,
+  "V024008|8": true,
+  "V024008|9": true,
+  "V024008|A": true,
+  "V024008|B": true,
+  "V024008|N": true,
+  "CTE003|A": false,
+  "CTE003|B": false,
+  "CTE003|N": false,
+  "V030021|A": false,
+  "V030021|B": false,
+  "V030021|N": false,
+  "V031011|A": false,
+  "V031011|B": false,
+  "V031011|7": true,
+  "V031011|N": false,
+  "V031014|A": false,
+  "V031014|B": false,
+  "V031014|7": true,
+  "V031014|N": false,
+  "V030026|A": false,
+  "V030026|B": false,
+  "V030026|N": false,
+  "V030058|A": false,
+  "V030058|N": false,
+  "V031006|A": false,
+  "V031006|B": false,
+  "V031006|N": false,
+  "V031012|A": false,
+  "V031012|B": false,
+  "V031012|N": false,
+  "V030046|A": false,
+  "V030046|B": false,
+  "V030046|N": false,
+  "V030051|A": false,
+  "V030051|B": false,
+  "V030051|N": false,
+  "V030052|A": false,
+  "V030052|B": false,
+  "V030052|N": false,
+  "V035001|A": false,
+  "V035001|B": false,
+  "V035001|N": false,
+  "V030056|A": false,
+  "V030056|B": false,
+  "V030056|N": false,
+  "CTE0025|A": false,
+  "CTE0025|B": false,
+  "CTE0025|N": false,
+  "V035003|A": false,
+  "V035003|B": false,
+  "V035003|N": false,
+  "V035007|A": false,
+  "V035007|B": false,
+  "V035007|N": false,
+  "V030063|A": false,
+  "V030063|N": false,
+  "V030068|A": false,
+  "V030068|N": false,
+  "Y030002|A": false,
+  "Y030002|N": false,
+  "Y040002|A": true,
+  "Y030004|A": false,
+  "Y030004|B": false,
+  "Y030004|N": false,
+  "Y030008|A": false,
+  "Y030008|N": false,
+  "Y030005|A": false,
+  "Y030005|N": false,
+  "Y030006|A": false,
+  "Y030006|N": false,
+  "Y030018|A": false,
+  "Y030018|B": false,
+  "Y030018|N": false,
+  "Y030014|A": false,
+  "Y030014|N": false,
+  "Y030016|A": false,
+  "Y030016|N": false,
+  "Y030007|A": false,
+  "Y030007|N": false,
+  "Y030017|A": false,
+  "Y030017|N": false,
+  "Y040001|A": true,
+  "Y040006|A": true,
+  "Y040018|A": true,
+  "Y040019|A": true,
+  "Y040028|A": true,
+  "Y040029|A": true,
+  "CTE0028|A": true,
+  "CTE0028|N": true,
+  "V070044|A": true,
+  "V070044|N": true,
+  "V070045|A": true,
+  "V070045|N": true,
+  "V074009|7": true,
+  "V074010|7": true,
+  "V073008|7": true,
+  "V076017|A": true,
+  "V076017|N": true,
+  "V071007|7": true,
+  "V071014|7": true,
+  "V076004|7": true,
+  "V074014|7": true,
+  "M003015|7": true,
+  "V070069|7": true,
+  "V070070|7": true,
+  "V070067|7": true,
+  "V072007|7": true,
+  "V072012|7": true,
+  "V070068|7": true,
+  "V070072|7": true,
+  "M003013|7": true,
+  "CTE0029|A": true,
+  "CTE0029|N": true,
+  "V076009|A": true,
+  "V076009|N": true,
+  "V076016|7": true,
+  "Y011002|A": true,
+  "Y030036|A": false,
+  "Y030036|B": false,
+  "Y030036|N": false,
+  "Y030019|7": true,
+  "Y030037|A": false,
+  "Y030037|N": false,
+  "Y030015|7": true,
+  "Y030028|A": true,
+  "Y030028|N": true,
+  "Y030029|7": true,
+  "Y030027|A": false,
+  "Y030027|N": false,
+  "Y040009|A": true,
+  "Y040007|A": true,
+  "Y040016|A": true,
+  "Y040017|A": true,
+  "Y040020|A": true,
+  "Y040030|A": true,
+  "Y040031|A": true,
+  "Y050001|A": false,
+  "Y050002|A": false,
+  "Y050002|B": false,
+  "Y050005|A": false,
+  "Y050006|A": false,
+  "Y050031|A": false,
+  "Y050007|A": false,
+  "Y050008|A": false,
+  "Y050010|A": false,
+  "Y050011|A": false,
+  "Y050012|A": false,
+  "Y050025|A": false,
+  "Y050033|A": false,
+  "Y050013|A": false,
+  "O060001|A": false,
+  "O060002|A": false,
+  "O060006|A": false,
+  "O030001|A": false,
+  "O030001|B": false,
+  "O030003|A": false,
+  "O030004|A": false,
+  "O030005|A": false,
+  "O030006|A": false,
+  "O070001|A": false,
+  "O040001|A": false,
+  "O040003|A": false,
+  "O040004|A": false,
+  "O040005|A": false,
+  "O040006|A": false,
+  "O040007|A": false,
+  "O040008|A": false,
+  "O050001|A": false,
+  "O050003|A": false,
+  "O050004|A": false,
+  "O050005|A": false,
+  "O050006|A": false,
+  "O050007|A": false,
+  "O050008|A": false,
+  "O020001|A": false,
+  "O020003|A": false,
+  "O020004|A": false,
+  "O020005|A": false,
+  "O020006|A": false,
+  "GEN0886|A": true,
+  "M020040|7": true,
+  "M020030|7": true,
+  "Y050006|7": true,
+  "R010104|7": true,
+  "R010104|A": false,
+  "R010104|N": false,
+  "M033016|7": true,
+  "M033013|7": true,
+  "M034001|7": true,
+  "M034002|7": true,
+  "M037002|7": true,
+  "M039003|7": true,
+  "M03A001|7": true,
+  "M03C002|7": true,
+  "M03C001|A": true,
+  "M03C001|N": true,
+  "M035001|7": true,
+  "M035002|7": true,
+  "M03F001|7": true,
+  "M03F002|7": true,
+  "M020015|7": true
+ },
+ "restrict": {
+  "GEN0925|X": {
+   "only": "미래플러스대학"
+  },
+  "GEN0925|Y": {
+   "only": "미래플러스대학"
+  },
+  "GEN0925|Z": {
+   "only": "미래플러스대학"
+  },
+  "GEN0925|8": {
+   "only": "미래플러스대학"
+  },
+  "GEN0925|9": {
+   "only": "미래플러스대학"
+  },
+  "REQ0421|Q": {
+   "only": "미래플러스대학"
+  },
+  "REQ0422|R": {
+   "only": "미래플러스대학"
+  },
+  "REQ0423|P": {
+   "only": "미래플러스대학"
+  },
+  "GEN0924|Z": {
+   "only": "미래플러스대학"
+  },
+  "GEN0923|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0789|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0789|O": {
+   "only": "미래플러스대학"
+  },
+  "GEN0789|P": {
+   "only": "미래플러스대학"
+  },
+  "GEN0789|Q": {
+   "only": "미래플러스대학"
+  },
+  "GEN0868|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0906|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0907|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0962|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0975|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN1030|N": {
+   "only": "미래플러스대학"
+  },
+  "GEN0996|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|B": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|C": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|D": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|E": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|G": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|B": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|C": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|D": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|E": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|G": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0994|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0994|B": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0994|C": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0996|F": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0995|F": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|B": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|C": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|D": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|E": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0989|G": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|B": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|C": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|D": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|E": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0990|G": {
+   "only": "글로벌인재대학"
+  },
+  "GEN1017|A": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0958|F": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0792|I": {
+   "only": "글로벌인재대학"
+  },
+  "GEN0727|7": {
+   "grades": [
+    2,
+    3,
+    4
+   ]
+  },
+  "GEN0960|7": {
+   "grades": [
+    2,
+    3,
+    4
+   ]
+  },
+  "GEN0789|7": {
+   "grades": [
+    1
+   ]
+  },
+  "GEN0789|8": {
+   "grades": [
+    1
+   ]
+  },
+  "GEN0789|9": {
+   "grades": [
+    1
+   ]
+  },
+  "GEN0789|A": {
+   "grades": [
+    1
+   ]
+  },
+  "GEN0789|B": {
+   "grades": [
+    1
+   ]
+  },
+  "GEN0787|7": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0787|8": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0787|9": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0787|0": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0787|A": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0787|B": {
+   "grades": [
+    3,
+    4
+   ]
+  },
+  "GEN0792|7": {
+   "grades": [
+    1,
+    2
+   ]
+  },
+  "GEN0792|8": {
+   "grades": [
+    1,
+    2
+   ]
+  },
+  "GEN0792|9": {
+   "grades": [
+    1,
+    2
+   ]
+  },
+  "GEN0792|0": {
+   "grades": [
+    1,
+    2
+   ]
+  },
+  "GEN0792|A": {
+   "grades": [
+    1,
+    2
+   ]
+  },
+  "GEN0992|7": {
+   "college": "인문사회기타"
+  },
+  "GEN0992|8": {
+   "college": "디자인대학"
+  },
+  "GEN0992|9": {
+   "college": "IT공과대학"
+  },
+  "GEN0156|7": {
+   "grades": [
+    3
+   ]
+  },
+  "GEN0156|8": {
+   "grades": [
+    3
+   ]
+  },
+  "GEN0158|7": {
+   "grades": [
+    4
+   ]
+  },
+  "GEN0158|8": {
+   "grades": [
+    4
+   ]
+  }
+ }
+}

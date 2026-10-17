@@ -1,0 +1,52 @@
+/* 한성대학교 컬러 */
+:root {
+  --hs-sky: #0b8fdf;    /* Sky Blue  · Pantone 2915 C */
+  --hs-blue: #0b4ea2;   /* Blue      · Pantone 2728 C */
+  --hs-dark: #0a2d6b;   /* Dark Blue · Pantone 281 C  */
+  --hs-grey: #666666;   /* Grey      · Pantone 424 C  */
+
+  --canvas: #ffffff;
+  --surface: #f6f7f9;
+  --text: #1f2430;
+  --border: #e3e7ee;
+
+  --radius: 4px;
+  --font: 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--text);
+  font: 400 16px/1.5 var(--font);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible { outline: 2px solid var(--hs-sky); outline-offset: 2px; }
+
+/* 입력칸 */
+.field__input {
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--canvas);
+  font: inherit;
+}
+.field__input:focus { border-color: var(--hs-blue); outline: none; box-shadow: 0 0 0 3px rgba(11, 143, 223, 0.2); }
+
+/* 버튼 */
+.btn {
+  height: 48px;
+  border-radius: var(--radius);
+  font: 700 15px var(--font);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.btn--primary { border: 0; background: var(--hs-blue); color: #ffffff; }
+.btn--primary:hover { background: var(--hs-dark); }
+.btn--outline { border: 1px solid var(--hs-blue); background: transparent; color: var(--hs-blue); }
+.btn--outline:hover { background: var(--hs-blue); color: #ffffff; }
